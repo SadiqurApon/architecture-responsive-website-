@@ -212,7 +212,8 @@
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .features {
         flex-direction: column;
     }    
     .teams{
@@ -247,6 +248,14 @@
     .card{
         max-width: auto;
         justify-content: center;
+    }
+    .feature-architect img{
+        width: 100%;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: auto;
     }
 }
 
